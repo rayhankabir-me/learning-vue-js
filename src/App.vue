@@ -1,5 +1,10 @@
 <script>
+import ButtonCounter from './components/ButtonCounter.vue'
+
 export default {
+  components: {
+    ButtonCounter,
+  },
   data() {
     return {
       message: 'hello world',
@@ -31,4 +36,7 @@ export default {
   </ul>
 
   <button v-on:click="toggleStatus">Toggle Status</button>
+  <br />
+  <hr />
+  <ButtonCounter />
 </template>
