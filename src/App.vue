@@ -1,9 +1,11 @@
 <script>
 import ButtonCounter from './components/ButtonCounter.vue'
+import ColorComponent from './components/ColorComponent.vue'
 
 export default {
   components: {
     ButtonCounter,
+    ColorComponent,
   },
   data() {
     return {
@@ -39,4 +41,7 @@ export default {
   <br />
   <hr />
   <ButtonCounter />
+
+  <h1>color component experiment</h1>
+  <ColorComponent />
 </template>
