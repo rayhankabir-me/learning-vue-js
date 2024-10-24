@@ -1,11 +1,13 @@
 <script>
 import ButtonCounter from './components/ButtonCounter.vue'
 import ColorComponent from './components/ColorComponent.vue'
+import InputComponent from './components/InputComponent.vue'
 
 export default {
   components: {
     ButtonCounter,
     ColorComponent,
+    InputComponent,
   },
   data() {
     return {
@@ -44,4 +46,5 @@ export default {
 
   <h1>color component experiment</h1>
   <ColorComponent />
+  <InputComponent />
 </template>
