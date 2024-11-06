@@ -3,6 +3,7 @@ import ButtonCounter from './components/ButtonCounter.vue'
 import ColorComponent from './components/ColorComponent.vue'
 import InputComponent from './components/InputComponent.vue'
 import InputField from './components/InputField.vue'
+import TodoComponent from './components/TodoComponent.vue'
 
 export default {
   components: {
@@ -10,6 +11,7 @@ export default {
     ColorComponent,
     InputComponent,
     InputField,
+    TodoComponent,
   },
   data() {
     return {
@@ -50,4 +52,5 @@ export default {
   <ColorComponent />
   <InputComponent />
   <InputField />
+  <TodoComponent />
 </template>
