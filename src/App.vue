@@ -2,12 +2,14 @@
 import ButtonCounter from './components/ButtonCounter.vue'
 import ColorComponent from './components/ColorComponent.vue'
 import InputComponent from './components/InputComponent.vue'
+import InputField from './components/InputField.vue'
 
 export default {
   components: {
     ButtonCounter,
     ColorComponent,
     InputComponent,
+    InputField,
   },
   data() {
     return {
@@ -47,4 +49,5 @@ export default {
   <h1>color component experiment</h1>
   <ColorComponent />
   <InputComponent />
+  <InputField />
 </template>
